@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BairesWagen - Concesionaria Volkswagen</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background: #0b3fa8; padding: 20px; color: white; text-align: center; }
+    nav { display: flex; justify-content: center; gap: 20px; background: #062b75; padding: 10px; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    .hero { background: url('https://upload.wikimedia.org/wikipedia/commons/2/26/VW_Golf_VII_%28VII%29_%E2%80%93_Frontansicht%2C_9._Januar_2013%2C_D%C3%BCsseldorf.jpg'); background-size: cover; background-position: center; height: 350px; display: flex; align-items: center; justify-content: center; color: white; font-size: 40px; text-shadow: 0 0 10px black; }
+    .section { padding: 40px; max-width: 1200px; margin: auto; }
+    .cars { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+    .card img { width: 100%; height: 180px; object-fit: cover; }
+    .card h3 { margin: 15px; }
+    .card p { margin: 0 15px 15px; color: #333; }
+    footer { background: #0b3fa8; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header style="display:flex; align-items:center; justify-content:center; gap:20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Volkswagen_logo_2019.svg" alt="VW Logo" style="height:60px;">
+    <div>
+      <h1>BairesWagen</h1>
+      <p>Tu concesionaria oficial Volkswagen en Argentina</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#modelos">Modelos</a>
+    <a href="#planes">Planes de Ahorro</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="hero">Bienvenido a BairesWagen</div>
+
+  <section id="modelos" class="section">
+    <h2>Modelos Destacados</h2>
+    <div class="cars">
+      <div class="card">
+        <img src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/m/RT_V_14de16b854ae4ac5ac3e8f5d56b71c5e.jpg" />
+        <h3>Volkswagen T-Cross</h3>
+        <p>Compacto, moderno y con tecnología de punta.</p>
+      </div>
+      <div class="card">
+        <img src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/m/RT_V_1d6d703bc1274a599a14e1ce3c73abdd.jpg" />
+        <h3>Volkswagen Nivus</h3>
+        <p>Diseño innovador y rendimiento eficiente.</p>
+      </div>
+      <div class="card">
+        <img src="https://acroadtrip.blob.core.windows.net/catalogo-imagenes/m/RT_V_00d65ebadc1b4caab0e9f40a9c862c52.jpg" />
+        <h3>Volkswagen Taos</h3>
+        <p>Espacio, confort y potencia para toda la familia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="planes" class="section" style="background:#e9eef7; border-radius:12px;">
+    <h2>Planes de Ahorro Volkswagen</h2>
+    <p>Accedé a tu Volkswagen con cuotas accesibles, entrega asegurada y respaldo oficial.</p>
+    <ul>
+      <li>Planes 70/30 y 60/40</li>
+      <li>Entregas programadas desde cuota 4</li>
+      <li>Suscripción 100% online</li>
+    </ul>
+  </section>
+
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p>📍 Dirección: Av. Siempre Viva 123, Buenos Aires</p>
+    <p>📞 Teléfono: 11-2345-6789</p>
+    <p>📧 Email: contacto@baireswagen.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 BairesWagen - Concesionaria Oficial Volkswagen</p>
+  </footer>
+
+</body>
+</html>
